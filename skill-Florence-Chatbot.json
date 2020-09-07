@@ -1,0 +1,2429 @@
+{
+  "name": "Florence Chatbot",
+  "intents": [
+    {
+      "intent": "aboutyou",
+      "examples": [
+        {
+          "text": "what about you?"
+        },
+        {
+          "text": "who are you"
+        },
+        {
+          "text": "can i know about you"
+        },
+        {
+          "text": "what your name"
+        },
+        {
+          "text": "i wanna know about know"
+        },
+        {
+          "text": "i want to know about you"
+        }
+      ],
+      "description": "Who are you"
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "later"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "adeu"
+        },
+        {
+          "text": "we are done"
+        },
+        {
+          "text": "done"
+        },
+        {
+          "text": "I'm leaving"
+        },
+        {
+          "text": "adieu"
+        },
+        {
+          "text": "cya"
+        },
+        {
+          "text": "farewell"
+        },
+        {
+          "text": "have a nice day"
+        },
+        {
+          "text": "quit"
+        },
+        {
+          "text": "bye now"
+        },
+        {
+          "text": "i am leaving"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "stop"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "delivery_info",
+      "examples": [
+        {
+          "text": "do you deliver?"
+        },
+        {
+          "text": "delivery informations"
+        },
+        {
+          "text": "do you provide deliveries?"
+        },
+        {
+          "text": "can i get my delivery?"
+        },
+        {
+          "text": "home service is provided or not?"
+        },
+        {
+          "text": "do you give home services?"
+        },
+        {
+          "text": "do i get my delivery"
+        },
+        {
+          "text": "home delivery services can be opted or not?"
+        }
+      ],
+      "description": "for other delivery related question"
+    },
+    {
+      "intent": "Thank_you",
+      "examples": [
+        {
+          "text": "alright  thank you"
+        },
+        {
+          "text": "mucho gusto"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thanking you"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "dhanyavad"
+        },
+        {
+          "text": "i owe you"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "much obliged"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "alright, thanks"
+        },
+        {
+          "text": "Thanks a bunch"
+        },
+        {
+          "text": "I owe you one"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "offer",
+      "examples": [
+        {
+          "text": "can i get any offer?"
+        },
+        {
+          "text": "is there is any deal?"
+        },
+        {
+          "text": "any new offer?"
+        },
+        {
+          "text": "what is today's deal"
+        },
+        {
+          "text": "what are offers available?"
+        }
+      ],
+      "description": "about offer on flower"
+    },
+    {
+      "intent": "delivery_time",
+      "examples": [
+        {
+          "text": "will i able get flower on Monday?"
+        },
+        {
+          "text": "do you deliver on holidays?"
+        },
+        {
+          "text": "do you deliver on weekends?"
+        },
+        {
+          "text": "Do you provide rushed delivery?"
+        },
+        {
+          "text": "Will I be able to get my flowers on Sunday?"
+        },
+        {
+          "text": "when i will get my flower"
+        },
+        {
+          "text": "when i will get my flower?"
+        },
+        {
+          "text": "when i will receive my flower?"
+        },
+        {
+          "text": "When will I receive my flowers?"
+        },
+        {
+          "text": "where do you deliver?"
+        },
+        {
+          "text": "Do you deliver during the holidays?"
+        }
+      ],
+      "description": "deliver time related questions"
+    },
+    {
+      "intent": "flower_suggestions",
+      "examples": [
+        {
+          "text": "i want for valentines day"
+        },
+        {
+          "text": "Flower recommendations"
+        },
+        {
+          "text": "Recommended flowers for special occasions"
+        },
+        {
+          "text": "Which flowers should I buy?"
+        },
+        {
+          "text": "glowers for anniversaries"
+        },
+        {
+          "text": "What flowers should I buy for my mom?"
+        },
+        {
+          "text": "Which flowers for a birthday?"
+        },
+        {
+          "text": "bouquet for girlfriend"
+        },
+        {
+          "text": "Which flowers for a funeral?"
+        },
+        {
+          "text": "I’d like to buy flowers for a sick friend"
+        },
+        {
+          "text": "I want flowers that express sympathy"
+        },
+        {
+          "text": "What are the best flowers for Valentine’s Day?"
+        },
+        {
+          "text": "What would be a good arrangement to give someone when they're retiring?"
+        },
+        {
+          "text": "what kind of flowers"
+        },
+        {
+          "text": "What types of flowers make a good choice as an anniversary gift for your parents?"
+        },
+        {
+          "text": "flower suggestions"
+        },
+        {
+          "text": "what should i give to my  friend who is sick"
+        },
+        {
+          "text": "funeral"
+        }
+      ]
+    },
+    {
+      "intent": "delivery_charge",
+      "examples": [
+        {
+          "text": "do i have to pay for delivery?"
+        },
+        {
+          "text": "how much for delivery?"
+        },
+        {
+          "text": "is delivery free?"
+        },
+        {
+          "text": "how much do you charge for delivery of flower"
+        },
+        {
+          "text": "do you charge for delivery"
+        },
+        {
+          "text": "How much fo delivery?"
+        },
+        {
+          "text": "How much notice for delivery?"
+        },
+        {
+          "text": "what are the charges?"
+        }
+      ],
+      "description": "for getting delivery charge related questions."
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "what's up?"
+        },
+        {
+          "text": "hey there"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hi there"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "holla"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "sup"
+        },
+        {
+          "text": "good day"
+        },
+        {
+          "text": "good after"
+        },
+        {
+          "text": "g'day"
+        },
+        {
+          "text": "howdy"
+        },
+        {
+          "text": "what's up"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "greetings"
+        }
+      ],
+      "description": "given by user to start conversation"
+    },
+    {
+      "intent": "about_maker",
+      "examples": [
+        {
+          "text": "about your makers"
+        },
+        {
+          "text": "what about your maker?"
+        },
+        {
+          "text": "can i know about your maker?"
+        },
+        {
+          "text": "who is our father"
+        },
+        {
+          "text": "who made you?"
+        },
+        {
+          "text": "who is your owner?"
+        }
+      ],
+      "description": "who made you"
+    },
+    {
+      "intent": "flower",
+      "examples": [
+        {
+          "text": "dahlia?"
+        },
+        {
+          "text": "sunflowers?"
+        },
+        {
+          "text": "tulips?"
+        },
+        {
+          "text": "asiatic lily?"
+        },
+        {
+          "text": "what about asiatic lily?"
+        },
+        {
+          "text": "for lavender is known for?"
+        },
+        {
+          "text": "carnations?"
+        },
+        {
+          "text": "what about carnations?"
+        },
+        {
+          "text": "what about sunflowers?"
+        },
+        {
+          "text": "what about tulips?"
+        },
+        {
+          "text": "what about rose?"
+        },
+        {
+          "text": "rose?"
+        },
+        {
+          "text": "for what carnation is known for?"
+        },
+        {
+          "text": "for what dahlia is know for?"
+        },
+        {
+          "text": "for what rose is known for?"
+        },
+        {
+          "text": "daffodils?"
+        },
+        {
+          "text": "what about dahlia?"
+        }
+      ],
+      "description": "name of flower"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "occasion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Christmas",
+          "synonyms": [
+            "yule",
+            "birth of christ",
+            "Dec-25",
+            "25th December",
+            "December 25th",
+            "Dec 25",
+            "December 25"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "getwell",
+          "synonyms": [
+            "mallady",
+            "unwell",
+            "illness",
+            "ill",
+            "disease",
+            "sickness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "retirement",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "funeral",
+          "synonyms": [
+            "end journey",
+            "celebration of life",
+            "shiva",
+            "wake",
+            "die",
+            "sympathy",
+            "grief",
+            "condolence",
+            "sorrow",
+            "condolences"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wedding",
+          "synonyms": [
+            "bride'maid",
+            "bride",
+            "groom",
+            "best man",
+            "shadi",
+            "bridesmaid"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "birthday",
+          "synonyms": [
+            "b'day",
+            "birth day",
+            "bday",
+            "b-day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Graduation",
+          "synonyms": [
+            "commencement",
+            "graduate",
+            "grad",
+            "graduating"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Valentine's Day",
+          "synonyms": [
+            "heart day",
+            "February 14th",
+            "Feb 14",
+            "valentines",
+            "February 14"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Anniversary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mother's Day",
+          "synonyms": [
+            "Mom's Day",
+            "Mum's Day",
+            "Mothering Sunday"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Congratulations",
+          "synonyms": [
+            "success",
+            "award"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mywork",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Work",
+          "synonyms": [
+            "work",
+            "job",
+            "help"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "flowernamee",
+      "values": []
+    },
+    {
+      "entity": "Gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "male",
+          "synonyms": [
+            "boy",
+            "guy",
+            "man"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "non binary",
+          "synonyms": [
+            "genderfluid",
+            "genderqueer",
+            "niether",
+            "both",
+            "intersex",
+            "agender",
+            "neither"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "female",
+          "synonyms": [
+            "girl",
+            "lady",
+            "hombre",
+            "woman"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "flowername",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sunflower",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Carnation",
+          "synonyms": [
+            "Celosia",
+            "cockscomb"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jasmine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Daffodil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dahlia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Daisy",
+          "synonyms": [
+            "garbera daisy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lavender",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marigold",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Orchid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tulip",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bonsai plant",
+          "synonyms": [
+            "bosai"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "house plant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "assored",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "delphinium",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Asiatic Lily",
+          "synonyms": [
+            "tiger lily",
+            "lily"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "relationship",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "boyfriend",
+          "synonyms": [
+            "BF",
+            "beau"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mom",
+          "synonyms": [
+            "mommysie",
+            "mommy",
+            "mum",
+            "mother",
+            "maa",
+            "mata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "brother",
+          "synonyms": [
+            "bhaiya",
+            "bro",
+            "bhai"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "friend",
+          "synonyms": [
+            "Best friend",
+            "BFF",
+            "associate",
+            "acquaintance",
+            "colleague",
+            "teacher",
+            "coach",
+            "bestie",
+            "neighbor",
+            "companion",
+            "roommate",
+            "professor",
+            "trainor",
+            "budy",
+            "dost",
+            "trainer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "girlfriend",
+          "synonyms": [
+            "baby",
+            "darling",
+            "janu",
+            "maal",
+            "GF",
+            "fiance",
+            "fiancee"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "husband",
+          "synonyms": [
+            "hubby"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "relative",
+          "synonyms": [
+            "grannie",
+            "grandma",
+            "grandpa",
+            "cousin",
+            "granny",
+            "uncle",
+            "aunt",
+            "step",
+            "sister",
+            "brother"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sister",
+          "synonyms": [
+            "didi",
+            "sis",
+            "bahen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wife",
+          "synonyms": [
+            "bibi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Father",
+          "synonyms": [
+            "pita ji",
+            "pita",
+            "daddy",
+            "dad",
+            "pop",
+            "papa",
+            "pops"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "response_types",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "negative",
+          "synonyms": [
+            "no",
+            "nope",
+            "definitely not",
+            "not at all",
+            "not that I know of"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "uncertain",
+          "synonyms": [
+            "unknown",
+            "unsure",
+            "not sure",
+            "don't know",
+            "maybe",
+            "not positive"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "positive",
+          "synonyms": [
+            "yes",
+            "yeah",
+            "yep",
+            "yup",
+            "yeppers",
+            "absolutely",
+            "definitely",
+            "indeed",
+            "sure"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "myname",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "name",
+          "synonyms": [
+            "name",
+            "call"
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "A family of flowers which are distinguished by their layers of delicate petals, and strong, thorny stems. There are many varieties and colors available. Roses have been a symbol of love for centuries and remain one of the world’s most recognized and celebrated flowers. See also: Petite Rose, Spray Rose, Tea Rose",
+            "source": "http://www.flowerglossary.com/wp-content/uploads/2017/09/rose.jpg",
+            "description": "rose image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Rose",
+      "dialog_node": "node_18_1547888891182",
+      "previous_sibling": "node_17_1547888774089"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Daisies are identified by their disk-shaped, multi-petaled blooms. They most often consist of white or pink petals surrounding a yellow center",
+            "source": "http://www.flowerglossary.com/wp-content/uploads/2017/09/daisy.jpg",
+            "description": "daisy image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Daisy",
+      "dialog_node": "node_25_1547891166098",
+      "previous_sibling": "node_24_1547891144573"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "A vine-like flowering plant with many small blooms, most often white or yellow in color. Jasmine is very fragrant and is often used to make perfumes.",
+            "source": "https://blog.serenataflowers.com/pollennation/wp-content/uploads/2018/06/jasmine.jpg",
+            "description": "jasmine",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Jasmine",
+      "dialog_node": "node_22_1547890782133",
+      "previous_sibling": "node_21_1547890760607"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "house plants stays for long time",
+            "source": "https://hgtvhome.sndimg.com/content/dam/images/grdn/fullset/2014/6/25/0/CI_11-f7ff0e380000.jpg.rend.hgtvcom.966.966.suffix/1452664589098.jpeg",
+            "description": "houseplant image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:(house plant)",
+      "dialog_node": "node_1_1547891414861",
+      "previous_sibling": "node_28_1547891333376"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "A popular bulb plant with colorful, cup-shaped blooms. Tulips are traditionally used to represent fame and love. Notable varieties include Dutch Tulips and French Tulips.",
+            "source": "http://www.flowerglossary.com/wp-content/uploads/2017/09/tulip.jpg",
+            "description": "tulip image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Tulip",
+      "dialog_node": "node_17_1547888774089",
+      "previous_sibling": "node_16_1547888577176"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "The common name for flowers in the Narcissus family, which consist of trumpet-shaped blooms and are often yellow or white in color. Daffodils are traditionally associated with chivalry. See also: Jonquil, Narcissus",
+            "source": "https://embedwistia-a.akamaihd.net/deliveries/08c42657b3ab09aeac44b8627ce3adc4cb019175.jpg?image_crop_resized=1280x720",
+            "description": "daffodils image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Daffodil",
+      "dialog_node": "node_24_1547891144573",
+      "previous_sibling": "node_23_1547891122607"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "An aromatic flowering plant with large orange or yellow blooms. There are several marigold varieties available. The pot marigold, also known as calendula, is commonly used as a culinary herb.",
+            "source": "http://www.flowerglossary.com/wp-content/uploads/2017/09/marigold.jpg",
+            "description": "marigold image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Marigold",
+      "dialog_node": "node_20_1547890718546",
+      "previous_sibling": "node_19_1547889018120"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "A family of often fragrant flowers characterized by their large, bell-shaped blooms or curled open petals. Lilies are a classic symbol of purity. See also: Asiatic Lily, Calla Lily, Oriental Lily, Peace Lily, Peruvian Lily, Stargazer Lily",
+            "source": "https://cdn.shopify.com/s/files/1/1252/1803/products/lily-bouquet-2610105122929_1024x1024.jpg?v=1546395889",
+            "description": "lily image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:(Asiatic Lily)",
+      "dialog_node": "node_27_1547891243951",
+      "previous_sibling": "node_26_1547891207319"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "A diverse family of ornamental flowers prized for their exotic appearance. Orchids are available in many colors and varieties and are often used to symbolize rare and delicate beauty. See also: Cymbidium Orchid, Dendrobium Orchid, Phalaenopsis Orchid",
+            "source": "http://www.flowerglossary.com/wp-content/uploads/2017/09/orchid.jpg",
+            "description": "orchid image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Orchid",
+      "dialog_node": "node_19_1547889018120",
+      "previous_sibling": "node_18_1547888891182"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "A variety of flower originating in Mexico and Central America, which consists of colorful multi-petaled blooms. Dahlias are available in an assortment of colors and are often used to represent elegance.",
+            "source": "http://www.flowerglossary.com/wp-content/uploads/2017/09/dahlia-flowers.png",
+            "description": "dahlia image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Dahlia",
+      "dialog_node": "node_23_1547891122607",
+      "previous_sibling": "node_22_1547890782133"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "A silvery, woody shrub that enjoys seaside weather. These fragrant plants bloom in spikes of purple, or sometimes white flowers. Lavender is often associated with love and devotion.",
+            "source": "http://www.flowerglossary.com/wp-content/uploads/2017/09/lavender.jpg",
+            "description": "lavender image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Lavender",
+      "dialog_node": "node_21_1547890760607",
+      "previous_sibling": "node_20_1547890718546"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "A favorite flower of many, they appear in long stalks of pink, blue, white and purple.  *Plant in full sun.  *Needs well-drained soil.  *Blooms in early summer to early fall.",
+            "source": "http://www.flowerglossary.com/wp-content/uploads/2017/09/delphinium-225x300.jpg",
+            "description": "delphinium image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:delphinium",
+      "dialog_node": "node_3_1547892142826",
+      "previous_sibling": "node_2_1547891496184"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "they give more professional look",
+            "source": "https://cdn.globalrose.com/assets/img/store/premium-assorted-colors-of-romantic-bridal-rose-bouquet-globalrose.jpg",
+            "description": "assorted bouquet image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:assored",
+      "dialog_node": "node_2_1547891496184",
+      "previous_sibling": "node_1_1547891414861"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "The Bonsai Plants Beautiful Live Grafted Ficus Bonsai Tree 4 Year Old",
+            "source": "https://images-eu.ssl-images-amazon.com/images/I/51%2B0471sS1L._SY300_QL70_.jpg",
+            "description": "bonsai plant image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:(bonsai plant)",
+      "dialog_node": "node_28_1547891333376",
+      "previous_sibling": "node_27_1547891243951"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "A long-lasting flower available in a wide variety of colors. Also known as dianthus, carnations have a long history of cultivation and are traditionally associated with fascination and distinction.  A brightly colored flower distinguished by its large blooming heads consisting of densely layered petals with a fuzzy texture. Celosia is also commonly known as cockscomb.",
+            "source": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhIVFRUWFxoZFRgYFxceGBoVGB8YGRcYGx0aHSggGB4lIBcXIjEiJSorLi8uGx8zODMtNyktLisBCgoKDg0OGxAQGy0mICMrLS0yLS0vLS0vKy0vLi0tListLS0vLS0tLS4tLS0tLS0tLS0tLS0tLS8tLS0tLS0tLf/AABEIAO4A1AMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAABQMGAQIEBwj/xAA+EAACAQMDAgUCBAQFAwIHAAABAhEAAyEEEjEFQQYTIlFhcYEyQpGhBxQjsVJiwdHwM3LhQ/EVFiWCkqKy/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAEDAgQFBgf/xAAvEQACAgEDAwIDCAMBAAAAAAAAAQIDEQQhMQUSURNBYXGBFCKRocHR4fAjMrFC/9oADAMBAAIRAxEAPwD2yiiiqjIKK",
+            "description": "carnation image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Carnation",
+      "dialog_node": "node_26_1547891207319",
+      "previous_sibling": "node_25_1547891166098"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "A thick-stemmed flower with large, sun-shaped blooms. Sunflowers are typically comprised of bright yellow petals surrounding a dark center. They are traditionally used to represent warmth and adoration.",
+            "source": "http://www.flowerglossary.com/wp-content/uploads/2017/09/sunflower.jpg",
+            "description": "sunflower image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_15_1547888539971",
+      "metadata": {},
+      "conditions": "@flowername:Sunflower",
+      "dialog_node": "node_16_1547888577176"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We recommend vibrant roses and tulips. check out our valentines bouquet"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1547738438636",
+      "metadata": {},
+      "conditions": "@Gender:male",
+      "dialog_node": "node_10_1547887379555",
+      "previous_sibling": "slot_7_1547887337956"
+    },
+    {
+      "type": "slot",
+      "parent": "node_23_1547738438636",
+      "variable": "$Gender",
+      "dialog_node": "slot_7_1547887337956",
+      "previous_sibling": "handler_14_1547887587405"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I am chatbot and made aditya.Thank you for asking"
+          ]
+        }
+      },
+      "parent": "node_23_1547738438636",
+      "conditions": "#about_maker",
+      "event_name": "generic",
+      "dialog_node": "handler_14_1547887587405",
+      "previous_sibling": "handler_13_1547887504664"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Red Roses express passion and love. check out our valentine bouquet.",
+            "source": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUTExMVFRUWFRcXGRgWFhUWFxgVGBcYGhgWFx0YHSggGR8lGxUYITEiJSkrLi4uFyA1ODMtNygtLisBCgoKDg0OGxAQGzAlICUtLy0vLy0rLS0tLi4tLS0tLy0tLS0tLS0tLS0tLS0tLS0tLS0vLS0tLS0tLS0tLS0tLf/AABEIAO4A1AMBEQACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAQIDBAUHBgj/xAA/EAACAQIEAwYEBAQEBQUAAAABAhEAAwQSITEFQVEGEyJhcYEykaGxB0LB8BQjUtFygpLhM0NissIVc6LS8f/EABoBAQADAQEBAAAAAAAAAAAAAAABAgMEBQb/xAA2EQACAQIFAQYGAQQCAgMAAAAAAQIDEQQSITFBUQUTYXGBkSKhscHR8OEjMkLxFBUzUnKSov/aAAwDAQACEQMRAD8A6",
+            "description": "red rose image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_23_1547738438636",
+      "metadata": {},
+      "conditions": "@Gender:female",
+      "dialog_node": "node_11_1547887425050",
+      "previous_sibling": "node_10_1547887379555"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "They might appreciate red roses or tulips. checkout our valentines bouquet"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_23_1547738438636",
+      "metadata": {},
+      "conditions": "@Gender:(non binary)",
+      "dialog_node": "node_12_1547887460440",
+      "previous_sibling": "node_11_1547887425050"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "i am glad that you asked, our deliveries are free and schedule for delivery will set at checkout time we deliver 24 hours and 7 days in week  including holidays. But Not deliver outside of South Delhi region"
+          ]
+        }
+      },
+      "parent": "node_23_1547738438636",
+      "conditions": "#delivery_info",
+      "event_name": "generic",
+      "dialog_node": "handler_13_1547887504664"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Are the flowers are for Male, Female or Non Binary Person"
+      },
+      "parent": "slot_7_1547887337956",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1547887337956",
+      "previous_sibling": "handler_8_1547887337956"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_7_1547887337956",
+      "context": {
+        "Gender": "@Gender"
+      },
+      "conditions": "@Gender",
+      "event_name": "input",
+      "dialog_node": "handler_8_1547887337956"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A cheerfull assorted boquet or house plant works realy well. In terms of color yellow express concept of friendship just stay away from yellow carnation they signal disappointment in other person."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_8_1547724904426",
+      "metadata": {},
+      "conditions": "@relationship:friend",
+      "dialog_node": "node_14_1547727532869",
+      "previous_sibling": "node_13_1547727191350"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "flower for sister! that's nice. She like Gerberas or Roses.I would Nice if They will be pink or red in color"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_8_1547724904426",
+      "metadata": {},
+      "conditions": "@relationship:sister",
+      "dialog_node": "node_15_1547727832245",
+      "previous_sibling": "node_14_1547727532869"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "He might enjoy bonsai or bamboo house plant.They will also last more days"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1547724904426",
+      "metadata": {},
+      "conditions": "@relationship:boyfriend || @relationship:husband || @relationship:Father || @relationship:brother",
+      "dialog_node": "node_11_1547726289749",
+      "previous_sibling": "node_10_1547725964944"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For relatives,i would recommend assorted bouquet or, if they have expressed such preference in past, a house plant"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_8_1547724904426",
+      "metadata": {},
+      "conditions": "@relationship:relative",
+      "dialog_node": "node_13_1547727191350",
+      "previous_sibling": "node_12_1547726655580"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buying Flower for Your Mom? That's very Nice gesture. We recommend you carnations or Gerberas. Pink or Red color would be better choice"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_8_1547724904426",
+      "metadata": {},
+      "conditions": "@relationship:Mom",
+      "dialog_node": "node_12_1547726655580",
+      "previous_sibling": "node_11_1547726289749"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buying her flower is always nice gesture. We recommend to opting for bouquet of red roses or red tulips."
+              },
+              {
+                "text": "She Will pleased by Red tulips or Red roses."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1547724904426",
+      "metadata": {},
+      "conditions": "@relationship:wife || @relationship:girlfriend",
+      "dialog_node": "node_10_1547725964944"
+    },
+    {
+      "type": "standard",
+      "title": "A special Occasion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which occasion?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547743467104",
+      "metadata": {},
+      "conditions": "@response_types:positive",
+      "dialog_node": "node_4_1547743931798",
+      "previous_sibling": "node_3_1547743761947"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547743467104",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_2_1547743649013",
+      "previous_sibling": "node_4_1547743931798"
+    },
+    {
+      "type": "standard",
+      "title": "No special occasion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Who are these flowers for?(Wife,brother or may be friend)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547743467104",
+      "metadata": {},
+      "conditions": "@response_types:negative",
+      "dialog_node": "node_3_1547743761947"
+    },
+    {
+      "type": "standard",
+      "title": "check for relationship",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1547743761947",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1547724904426"
+      },
+      "conditions": "@relationship",
+      "dialog_node": "node_8_1547748855656"
+    },
+    {
+      "type": "standard",
+      "title": "Get well suggestion by location",
+      "output": {},
+      "parent": "node_35_1547740721232",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@response_types",
+      "dialog_node": "node_36_1547740848958",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547746899681",
+      "metadata": {},
+      "dialog_node": "node_2_1547881878475",
+      "previous_sibling": "node_1_1547881865468"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1547746899681",
+      "metadata": {},
+      "dialog_node": "node_1_1547881865468"
+    },
+    {
+      "type": "frame",
+      "title": "Graduation Gender Question",
+      "output": {},
+      "parent": "node_7_1547724856177",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@occasion:Graduation",
+      "dialog_node": "node_30_1547740049173",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_23_1547738438636",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Is special Occasion Question",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are flowers for special occasion?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1547724856177",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1547743467104",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1547724904426"
+    },
+    {
+      "type": "standard",
+      "title": "Own Anniversary question",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are these Flowers for your own anniversary"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1547724856177",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@occasion:Anniversary",
+      "dialog_node": "node_2_1547747386256",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_35_1547740721232"
+    },
+    {
+      "type": "standard",
+      "title": "Simple occasion suggestion",
+      "output": {},
+      "parent": "node_7_1547724856177",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@occasion",
+      "dialog_node": "node_9_1547725329133",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1547747386256"
+    },
+    {
+      "type": "standard",
+      "title": "Get Well Hospital Question",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is person who is sick at hospital?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1547724856177",
+      "metadata": {},
+      "conditions": "@occasion:getwell",
+      "dialog_node": "node_35_1547740721232",
+      "previous_sibling": "node_30_1547740049173"
+    },
+    {
+      "type": "standard",
+      "title": "Relationship suggestion",
+      "output": {},
+      "parent": "node_7_1547724856177",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@relationship",
+      "dialog_node": "node_8_1547724904426",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1547725329133"
+    },
+    {
+      "type": "frame",
+      "title": "valentines gender question",
+      "output": {},
+      "parent": "node_7_1547724856177",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@occasion:(Valentine's Day)",
+      "dialog_node": "node_23_1547738438636",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "collect user name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, $username how can i help you. you can ask me about delivery and suggestion of flower related question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "context": {
+        "username": "@sys-person"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1547829620120",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Not For Own Anniversary",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is your Partner is male, female or non binary person."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1547747386256",
+      "metadata": {},
+      "conditions": "@response_types:positive",
+      "dialog_node": "node_5_1547747848146",
+      "previous_sibling": "node_4_1547747602191"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1547747386256",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_3_1547747511612",
+      "previous_sibling": "node_5_1547747848146"
+    },
+    {
+      "type": "standard",
+      "title": "For Own Anniversary",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Assorted Bouquet in cheerful colors will make happiness.you can also go for house plant if you want."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1547747386256",
+      "metadata": {},
+      "conditions": "@response_types:negative || @response_types:uncertain",
+      "dialog_node": "node_4_1547747602191"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "House plant in bright colors will bring hope to affected person.",
+            "source": "https://www.wikihow.com/images/c/c6/Choose-Low%E2%80%90Maintenance-Houseplants-Step-19.jpg",
+            "description": "houseplant image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_36_1547740848958",
+      "metadata": {},
+      "conditions": "@response_types:negative",
+      "dialog_node": "node_38_1547741192655",
+      "previous_sibling": "node_37_1547740906317"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Particularly flower are recommended in hospitals. But if want to cheer up affected person Irises or tulips in in cheerful colors will be better.",
+            "source": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSExMVFhUXGBYVFRcYGBUYGBcVFRUWFxcYFhgYHSggGBolHRUXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0lICYtLS0uLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tK//AABEIAL0BCwMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAEBQMGBwIBAAj/xAA/EAABAwEGAwUGBAUEAgMBAAABAgMRAAQFEiExQQZRYRMicYGRMqGxwdHwFEJS4QcjYnKCFTOS8UNzNIPCFv/EABoBAAIDAQEAAAAAAAAAAAAAAAIDAAEEBQb/xAAtEQACAgICAQQABQMFAAAAAAAAAQIRAzESIQQTIkFRMmFxsfCBkcEFFCOh0f/aAAwDAQACEQMRAD8ASKc7teWNedQu5",
+            "description": "Irish flower image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_36_1547740848958",
+      "metadata": {},
+      "conditions": "@response_types:positive || @response_types:uncertain",
+      "dialog_node": "node_37_1547740906317"
+    },
+    {
+      "type": "standard",
+      "title": "about my name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is Florence A chatbot. please let help you ask question about your flower choice."
+              },
+              {
+                "text": "I am florence A Chatbot. How can i help you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1547883156938",
+      "metadata": {},
+      "conditions": "@myname",
+      "dialog_node": "node_5_1547883985226",
+      "previous_sibling": "node_4_1547883779204"
+    },
+    {
+      "type": "standard",
+      "title": "About my work",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "i can suggest flower for you or may be i help about delivery questions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1547883156938",
+      "metadata": {},
+      "conditions": "@mywork",
+      "dialog_node": "node_4_1547883779204"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "We like to recommend bright lilies or you can go for school colors also.",
+            "source": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGRsbGRgYGB0YGxgbGhoYHRoaHhoaHSggGBolHRgaITEiJSkrLi4uGx8zODMtNygtLisBCgoKDg0OGxAQGy0mICIwLysrLy83LS0vMC0tLS0tLS8tLS0tLS0tLS8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAPkAywMBIgACEQEDEQH/xAAcAAADAQEBAQEBAAAAAAAAAAAEBQYDAgcBAAj/xABEEAABAgQEAwYEBAMHAwMFAAABAhEAAwQhBRIxQVFhcQYTIoGRoTJCscFS0eHwFCNyFTNigqKy8QcWNEOS0iQ1U3PC/8QAGgEAAgMBAQAAAAAAAAAAAAAAAgMBBAUABv/EADERAAICAQQBAwEGBQUAAAAAAAECAAMRBBIhMUETIlEFFDJhcYGRI0KhscEzUtHh8P/aAAwDAQACEQMRAD8AH",
+            "description": "bright color lily image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_30_1547740049173",
+      "metadata": {},
+      "conditions": "@Gender:female || @Gender:(non binary)",
+      "dialog_node": "node_4_1547893923234",
+      "previous_sibling": "slot_1_1547893696534"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_30_1547740049173",
+      "metadata": {},
+      "variable": "$Gender",
+      "dialog_node": "slot_1_1547893696534",
+      "previous_sibling": "node_31_1547740157153"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "We recommend carnations in bright colors if available on site otherwise go for school's colors",
+            "source": "https://www.insity.com/content/images/thumbs/0003883_bouquet-of-bright-color-gerberas-carnations-with-roses.jpeg",
+            "description": "bright color carnation image",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_30_1547740049173",
+      "metadata": {},
+      "conditions": "@Gender:male",
+      "dialog_node": "node_31_1547740157153"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry to hear. Chrysanthemums or Lilies arrangements using peaceful colors like white,pastel green and blues are recommended, Please note if you going for Jewish funeral flower are considered as good."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_9_1547725329133",
+      "metadata": {},
+      "conditions": "@occasion:funeral",
+      "dialog_node": "node_19_1547729342449",
+      "previous_sibling": "node_18_1547729253482"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For congratulation, i would recommend a cheerful assorted bouquet like our awesome Job bouquet."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_9_1547725329133",
+      "metadata": {},
+      "conditions": "@occasion:Congratulations",
+      "dialog_node": "node_20_1547729553189",
+      "previous_sibling": "node_19_1547729342449"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For weeding related flower arrangement, Please contact to our human team at 123-4567897"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_9_1547725329133",
+      "metadata": {},
+      "conditions": "@occasion:wedding",
+      "dialog_node": "node_18_1547729253482",
+      "previous_sibling": "node_16_1547728223503"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "poinssettia in Red color will good for celebrations like Christmas"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_9_1547725329133",
+      "metadata": {},
+      "conditions": "@occasion:Christmas",
+      "dialog_node": "node_21_1547729703977",
+      "previous_sibling": "node_20_1547729553189"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I would love to recommend specific flower bouquet, But birthdays are as individual as the person is celebrated. specific choice you can find their favorite flower or colors, or simply something eye catching from our birthday flower page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1547725329133",
+      "metadata": {},
+      "conditions": "@occasion:birthday",
+      "dialog_node": "node_16_1547728223503"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Are The flower for Male,Female or Non Binary"
+      },
+      "parent": "slot_1_1547893696534",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1547893696534",
+      "previous_sibling": "handler_2_1547893696534"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1547893696534",
+      "context": {
+        "Gender": "@Gender"
+      },
+      "conditions": "@Gender",
+      "event_name": "input",
+      "dialog_node": "handler_2_1547893696534"
+    },
+    {
+      "type": "standard",
+      "title": "Check for ocassion",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1547743931798",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_23_1547738438636"
+      },
+      "conditions": "@occasion",
+      "dialog_node": "node_9_1547748938605"
+    },
+    {
+      "type": "standard",
+      "title": "Decide for different gender",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1547747848146",
+      "metadata": {},
+      "conditions": "@Gender",
+      "dialog_node": "node_6_1547748203880"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, $username how can i help you. you can ask me about delivery and suggestion of flower related question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547829620120",
+      "context": {
+        "username": "@sys-person"
+      },
+      "disabled": true,
+      "metadata": {},
+      "conditions": "$username",
+      "dialog_node": "node_6_1547886581792"
+    },
+    {
+      "type": "standard",
+      "title": "greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi,there i am here to help"
+              },
+              {
+                "text": "hey, how can i help you"
+              },
+              {
+                "text": "Hi,what can do for you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1547714382347",
+      "previous_sibling": "node_15_1547888539971"
+    },
+    {
+      "type": "standard",
+      "title": "delivery information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "i am glad that you asked, our deliveries are free and schedule for delivery will set at checkout time we deliver 24 hours and 7 days in week  including holidays. But Not deliver outside of South Delhi region"
+              },
+              {
+                "text": "Thank you for asking. delivery will be schedule at time of checkout and are free. our delivery is 24*7 and We deliver in holidays also But not outside of Delhi"
+              },
+              {
+                "text": "i glad to  help you. deliveries are free and can be schedule at checkout. We delivery 24 hours and 7 days of week including holidays But Not outside of South Delhi"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#delivery_info",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1547717958507",
+      "previous_sibling": "node_4_1547827236665"
+    },
+    {
+      "type": "standard",
+      "title": "delivery charges",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "i glad to  help you. deliveries are free."
+              },
+              {
+                "text": "Thank you for asking. delivery will be free."
+              },
+              {
+                "text": "i am glad that you asked, our deliveries are free."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#delivery_charge",
+      "dialog_node": "node_3_1547827234430",
+      "previous_sibling": "node_3_1547714382347"
+    },
+    {
+      "type": "standard",
+      "title": "question about me",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am florence A Chatbot. How can i help you"
+              },
+              {
+                "text": "thank you for asking. i am a chat bot."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#aboutyou",
+      "dialog_node": "node_3_1547883156938",
+      "previous_sibling": "node_1_1547746899681"
+    },
+    {
+      "type": "standard",
+      "title": "Questions about makers",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am made by Aditya Pandey. How can i help you."
+              },
+              {
+                "text": "Aditya Pandey Made me.Please let me know if you have any other questions"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#about_maker",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1547746899681",
+      "previous_sibling": "node_12_1547751815203"
+    },
+    {
+      "type": "standard",
+      "title": "name of flower",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#flower",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_15_1547888539971",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1547724856177"
+    },
+    {
+      "type": "standard",
+      "title": "Intent Confidence Check",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "intents[0].confidence<0.7",
+      "dialog_node": "node_12_1547751815203",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Flower suggestion",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_23_1547738438636"
+      },
+      "conditions": "#flower_suggestions",
+      "dialog_node": "node_7_1547724856177",
+      "previous_sibling": "node_3_1547883156938"
+    },
+    {
+      "type": "standard",
+      "title": "good bye",
+      "output": {
+        "generic": [
+          {
+            "title": "Thank you for chatting with me, Have a wonderful day $username",
+            "source": "https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#goodbyes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1547716687170",
+      "previous_sibling": "node_2_1547714189027"
+    },
+    {
+      "type": "standard",
+      "title": "Delivery time",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "our delivery is 24*7 and We deliver in holidays."
+              },
+              {
+                "text": "schedule for delivery will set at checkout time we deliver 24 hours and 7 days in week  including holidays."
+              },
+              {
+                "text": "We delivery 24 hours and 7 days of week including holidays."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#delivery_time",
+      "dialog_node": "node_4_1547827236665",
+      "previous_sibling": "node_3_1547827234430"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1547716687170"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are welcome $username"
+              },
+              {
+                "text": "you are very welcome $username"
+              },
+              {
+                "text": "anytime $username"
+              },
+              {
+                "text": "i am glad $username"
+              },
+              {
+                "text": "i am glad that i could help $username"
+              },
+              {
+                "text": "no problem $username"
+              },
+              {
+                "text": "no problemo $username"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Thank_you",
+      "dialog_node": "node_2_1547714189027",
+      "previous_sibling": "node_4_1547717958507"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi,I am FLORENCE. What name would like called by?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "31a36b80-4bc9-4a55-83e6-46fda26ad1fa",
+  "counterexamples": [
+    {
+      "text": "male"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
